@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" type="image/png" href="img/music.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52545ce50d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="player-container">
+<!--    Song-->
+    <div class="img-container">
+        <img src="img/He.art.jpg" id="img" alt="Album Art">
+    </div>
+    <h2 id="title">Deep Jungle Walk</h2>
+    <h3 id="artist">Astrix</h3>
+    <audio src="music/Astrix%20-%20Deep%20Jungle%20Walk.m4a" id="music"></audio>
+    <!--    Progress    -->
+    <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+            <span id="current-time">0:00</span>
+            <span id="duration">2:06</span>
+        </div>
+</div>
+<!--    Controls    -->
+    <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+        <div class="volume-container">
+            <input type="range" min="0" max="1" step="0.01" value="1" id="volume">
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
