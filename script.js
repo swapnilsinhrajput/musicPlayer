@@ -26,12 +26,6 @@ const songs = [
     imageSrc: 'img/Genetic%20Lottery.jpg',
   },
   {
-    name:'Mandragora - AK-47',
-    displayName: 'AK-47',
-    artist: 'Mandragora',
-    imageSrc: 'img/AK-47.jpg',
-  },
-  {
     name:'Mandragora - Sem Chao',
     displayName: 'Sem Chao',
     artist: 'Mandragora',
